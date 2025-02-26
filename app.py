@@ -6,6 +6,7 @@ import json
 
 def main():
     kr_holidays = holidays.country_holidays("KR")
+    base_dir = "public/api/v1/"
 
     date_map = {}
     datetime_map = {}
@@ -21,17 +22,17 @@ def main():
                     date_map[current_date.strftime("%Y-%m-%d")] = holiday
                     datetime_map[str(int(current_date.timestamp()))] = holiday
 
-    with open("date.json", "w") as outfile:
+    with open(base_dir + "date.json", "w") as outfile:
         json.dump(date_map, outfile, ensure_ascii=False, indent=2)
 
-    with open("date.csv", "w") as outfile:
+    with open(base_dir + "date.csv", "w") as outfile:
         for k, v in date_map.items():
             outfile.write(f"{k},{v}\n")
 
-    with open("datetime.json", "w") as outfile:
+    with open(base_dir + "datetime.json", "w") as outfile:
         json.dump(datetime_map, outfile, ensure_ascii=False, indent=2)
 
-    with open("datetime.csv", "w") as outfile:
+    with open(base_dir + "datetime.csv", "w") as outfile:
         for k, v in datetime_map.items():
             outfile.write(f"{k},{v}\n")
 
