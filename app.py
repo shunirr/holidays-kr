@@ -6,7 +6,7 @@ import json
 
 def main():
     kr_holidays = holidays.country_holidays("KR")
-    base_dir = "public/api/v1/"
+    base_dir = "dist/api/v1/"
 
     date_map = {}
     datetime_map = {}
