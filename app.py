@@ -1,4 +1,5 @@
 import datetime
+import os
 import holidays
 import calendar
 import json
@@ -21,6 +22,8 @@ def main():
                 if holiday:
                     date_map[current_date.strftime("%Y-%m-%d")] = holiday
                     datetime_map[str(int(current_date.timestamp()))] = holiday
+
+    os.makedirs(base_dir, exist_ok=True)
 
     with open(base_dir + "date.json", "w") as outfile:
         json.dump(date_map, outfile, ensure_ascii=False, indent=2)
