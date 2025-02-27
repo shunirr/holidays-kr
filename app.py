@@ -1,8 +1,10 @@
+from ics import Calendar, Event
 import datetime
-import os
 import holidays
 import calendar
+import arrow
 import json
+import os
 
 
 def main():
@@ -25,6 +27,20 @@ def main():
 
     os.makedirs(base_dir, exist_ok=True)
 
+    # Generate ics file
+    cal = Calendar()
+    for k, v in date_map.items():
+        event = Event()
+        event.name = v
+        event.begin = arrow.get(k, "YYYY-MM-DD").replace(tzinfo="Asia/Seoul")
+        event.end = arrow.get(k, "YYYY-MM-DD").replace(tzinfo="Asia/Seoul")
+        event.make_all_day()
+        cal.events.add(event)
+
+    with open(base_dir + "holidays.ics", "w") as outfile:
+        outfile.write(str(cal))
+
+    # Write json and csv files
     with open(base_dir + "date.json", "w") as outfile:
         json.dump(date_map, outfile, ensure_ascii=False, indent=2)
 
