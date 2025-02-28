@@ -38,6 +38,9 @@ def generate_ics(title: str, lang: str, date_list: list[tuple]) -> str:
 
 
 def translate_to_japanese(data: list[str]) -> map:
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("API key is not set")
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     chat_completion = client.chat.completions.create(
         messages=[
@@ -75,8 +78,8 @@ def main():
     datetime_list = []
     holidays_names = set()
     now = datetime.date.today()
-    for k in reversed(range(0, 3)):
-        current_year = now.year - k
+    for k in range(-2, 2):
+        current_year = now.year + k
         for i in range(1, 13):
             last_day_of_month = calendar.monthrange(current_year, i)[1]
             for j in range(1, last_day_of_month + 1):
@@ -98,12 +101,14 @@ def main():
                             }
                         )
 
-    response = translate_to_japanese(list(holidays_names))
-    for x in date_list:
-        x.update({"ja": response[x["ko"]]})
-
-    for x in datetime_list:
-        x.update({"ja": response[x["ko"]]})
+    try:
+        response = translate_to_japanese(list(holidays_names))
+        for x in date_list:
+            x.update({"ja": response[x["ko"]]})
+        for x in datetime_list:
+            x.update({"ja": response[x["ko"]]})
+    except ValueError as e:
+        print(f"An error occurred: {e}")
 
     os.makedirs(base_dir, exist_ok=True)
 
@@ -112,9 +117,10 @@ def main():
     with open(base_dir + "ko.ics", "w") as outfile:
         outfile.write(ics_ko)
 
-    ics_ja = generate_ics("韓国の祝日", "JA", [(x["date"], x["ja"]) for x in date_list])
-    with open(base_dir + "ja.ics", "w") as outfile:
-        outfile.write(ics_ja)
+    if "ja" in date_list[0]:
+        ics_ja = generate_ics("韓国の祝日", "JA", [(x["date"], x["ja"]) for x in date_list])
+        with open(base_dir + "ja.ics", "w") as outfile:
+            outfile.write(ics_ja)
 
     # Write json and csv files
     with open(base_dir + "date.json", "w") as outfile:
@@ -122,14 +128,20 @@ def main():
 
     with open(base_dir + "date.csv", "w") as outfile:
         for i in date_list:
-            outfile.write(f"{i['date']},{i['ko']},{i['ja']}\n")
+            if "ja" in i:
+                outfile.write(f"{i['date']},{i['ko']},{i['ja']}\n")
+            else:
+                outfile.write(f"{i['date']},{i['ko']}\n")
 
     with open(base_dir + "datetime.json", "w") as outfile:
         json.dump(datetime_list, outfile, ensure_ascii=False, indent=2)
 
     with open(base_dir + "datetime.csv", "w") as outfile:
         for i in datetime_list:
-            outfile.write(f"{i['datetime']},{i['ko']},{i['ja']}\n")
+            if "ja" in i:
+                outfile.write(f"{i['datetime']},{i['ko']},{i['ja']}\n")
+            else:
+                outfile.write(f"{i['datetime']},{i['ko']}\n")
 
 
 if __name__ == "__main__":
