@@ -4,4 +4,4 @@ set -euo pipefail
 pip install -r requirements.txt
 python ./app.py
 
-npx @redocly/cli build-docs "./dist/openapi.yml" --output "./dist/index.html"
+npx @redocly/cli build-docs "./openapi.yml" --output "./dist/index.html"
