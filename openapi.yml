@@ -1,0 +1,70 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: holidays-kr
+paths:
+  /date.json:
+    get:
+      summary: Date of the holidays in JSON
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    date:
+                      type: string
+                      example: 2023-01-01
+                    name:
+                      type: string
+                      example: New Year's Day
+  /date.csv:
+    get:
+      summary: Date of the holidays in CSV
+      responses:
+        '200':
+          content:
+            text/csv:
+              schema:
+                type: string
+                example: 2023-01-01,New Year's Day
+  /datetime.json:
+    get:
+      summary: Datetime of the holidays in JSON
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    date:
+                      type: number
+                      example: 1672498800
+                    name:
+                      type: string
+                      example: New Year's Day
+  /datetime.csv:
+    get:
+      summary: Datetime of the holidays in CSV
+      responses:
+        '200':
+          content:
+            text/csv:
+              schema:
+                type: string
+                example: 1672498800,New Year's Day
+  /holidays.ics:
+    get:
+      summary: iCalendar of the holidays
+      responses:
+        '200':
+          content:
+            text/calendar:
+              schema:
+                type: string
