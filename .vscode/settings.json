@@ -1,3 +1,14 @@
 {
-  "cSpell.words": ["dateutil", "peaceiris", "redocly"]
+  "cSpell.words": [
+    "CALDESC",
+    "CALNAME",
+    "dateutil",
+    "dtstamp",
+    "DTSTART",
+    "peaceiris",
+    "PRODID",
+    "redocly",
+    "VCALENDAR",
+    "VEVENT"
+  ]
 }

@@ -1,23 +1,40 @@
-from ics import Calendar, Event
 from openai import OpenAI
 import datetime
 import holidays
 import calendar
+import hashlib
 import arrow
 import json
 import os
 
 
-def generate_ics(date_list: list[tuple]) -> str:
-    cal = Calendar()
+def generate_ics(title: str, lang: str, date_list: list[tuple]) -> str:
+    cal = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//github.com/shunirr/holidays-kr//{}".format(lang.upper()),
+        "X-WR-CALNAME:{}".format(title),
+        "X-WR-TIMEZONE:Asia/Tokyo",
+        "X-WR-CALDESC:https://github.com/shunirr/holidays-kr",
+    ]
+    dtstamp = datetime.datetime.now().strftime("%Y%m%dT%H%M%SZ")
     for i in date_list:
-        event = Event()
-        event.name = i[1]
-        event.begin = arrow.get(i[0], "YYYY-MM-DD").replace(tzinfo="Asia/Seoul")
-        event.end = arrow.get(i[0], "YYYY-MM-DD").replace(tzinfo="Asia/Seoul")
-        event.make_all_day()
-        cal.events.add(event)
-    return str(cal)
+        date = (
+            arrow.get(i[0], "YYYY-MM-DD")
+            .replace(tzinfo="Asia/Seoul")
+            .format("YYYYMMDD")
+        )
+        uid = hashlib.sha1("{}-{}".format(date, i[1]).encode("utf-8")).hexdigest()
+        cal.append("BEGIN:VEVENT")
+        cal.append("DTSTART;VALUE=DATE:{}".format(date))
+        cal.append("DTSTAMP:{}".format(dtstamp))
+        cal.append("UID:{}".format(uid))
+        cal.append("SUMMARY:{}".format(i[1]))
+        cal.append("CLASS:PUBLIC")
+        cal.append("TRANSP:TRANSPARENT")
+        cal.append("END:VEVENT")
+    cal.append("END:VCALENDAR")
+    return "\n".join(cal)
 
 
 def translate_to_japanese(data: list[str]) -> map:
@@ -91,11 +108,11 @@ def main():
     os.makedirs(base_dir, exist_ok=True)
 
     # Generate ics file
-    ics_ko = generate_ics([(x["date"], x["ko"]) for x in date_list])
+    ics_ko = generate_ics("공휴일", "KO", [(x["date"], x["ko"]) for x in date_list])
     with open(base_dir + "ko.ics", "w") as outfile:
         outfile.write(ics_ko)
 
-    ics_ja = generate_ics([(x["date"], x["ja"]) for x in date_list])
+    ics_ja = generate_ics("韓国の祝日", "JA", [(x["date"], x["ja"]) for x in date_list])
     with open(base_dir + "ja.ics", "w") as outfile:
         outfile.write(ics_ja)
 
