@@ -4,7 +4,7 @@ This is a script that generates holidays in South Korea, formatted in JSON, CSV,
 
 - API Doc: https://holidays-kr.s5r.jp/
 
-Inspired by https://holidays-jp.github.io/ project.
+Inspired by [Holidays JP API](https://holidays-jp.github.io/) project.
 
 ## Useful features
 
