@@ -16,7 +16,7 @@ We provide a translated iCalendar file. Normally, holidays are provided as local
 
 We use the `https://github.com/vacanza/holidays` library that provides holidays for many countries.
 
-1. Get holidays from holidays lib
+1. Get holidays from the [vacanza/holidays](https://github.com/vacanza/holidays) lib
 2. Translate to Japanese by OpenAI API
 3. Convert to JSON, CSV and iCalendar format
 4. Deploy to Web
