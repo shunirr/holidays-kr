@@ -1,4 +1,4 @@
-# holidays-kr
+# holidays-kr / 韓国の祝日
 
 This is a script that generates holidays in South Korea, formatted in JSON, CSV, and iCalendar.
 
@@ -9,6 +9,8 @@ Inspired by [Holidays JP API](https://holidays-jp.github.io/) project.
 ## Useful features
 
 We provide a translated iCalendar file. Normally, holidays are provided as local-language calendars.
+
+日本語訳された「韓国の祝日」の iCalendar ファイルを提供しています。
 
 - https://holidays-kr.s5r.jp/ja.ics
 
