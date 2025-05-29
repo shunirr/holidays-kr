@@ -1,392 +1,392 @@
 [
   {
     "date": "2023-01-01",
-    "ko": "New Year's Day",
-    "ja": "元日 (신정)"
+    "ko": "신정",
+    "ja": "新年 (신정)"
   },
   {
     "date": "2023-01-21",
-    "ko": "The day preceding Korean New Year",
-    "ja": "旧正月の前日 (설날 전날)"
+    "ko": "설날 전날",
+    "ja": "旧正月 前日 (설날 전날)"
   },
   {
     "date": "2023-01-22",
-    "ko": "Korean New Year",
+    "ko": "설날",
     "ja": "旧正月 (설날)"
   },
   {
     "date": "2023-01-23",
-    "ko": "The second day of Korean New Year",
-    "ja": "韓国の旧正月の二日目 (설날 이틀)"
+    "ko": "설날 다음날",
+    "ja": "旧正月 翌日 (설날 다음날)"
   },
   {
     "date": "2023-01-24",
-    "ko": "Alternative holiday for Korean New Year",
-    "ja": "旧正月の代替休日 (설날 대체휴일)"
+    "ko": "설날 대체 휴일",
+    "ja": "旧正月 代替休日 (설날 대체 휴일)"
   },
   {
     "date": "2023-03-01",
-    "ko": "Independence Movement Day",
-    "ja": "独立運動記念日 (3.1절)"
+    "ko": "삼일절",
+    "ja": "三一節 (삼일절)"
   },
   {
     "date": "2023-05-05",
-    "ko": "Children's Day",
-    "ja": "子供の日 (어린이날)"
+    "ko": "어린이날",
+    "ja": "こどもの日 (어린이날)"
   },
   {
     "date": "2023-05-27",
-    "ko": "Buddha's Birthday",
-    "ja": "仏誕祭 (부처님 오신 날)"
+    "ko": "부처님오신날",
+    "ja": "仏陀降誕日 (부처님오신날)"
   },
   {
     "date": "2023-05-29",
-    "ko": "Alternative holiday for Buddha's Birthday",
-    "ja": "仏誕祭の代替休日 (부처님 오신 날 대체휴일)"
+    "ko": "부처님오신날 대체 휴일",
+    "ja": "仏陀降誕日 代替休日 (부처님오신날 대체 휴일)"
   },
   {
     "date": "2023-06-06",
-    "ko": "Memorial Day",
+    "ko": "현충일",
     "ja": "顕忠日 (현충일)"
   },
   {
     "date": "2023-08-15",
-    "ko": "Liberation Day",
+    "ko": "광복절",
     "ja": "光復節 (광복절)"
   },
   {
     "date": "2023-09-28",
-    "ko": "The day preceding Chuseok",
-    "ja": "秋夕の前日 (추석 전날)"
+    "ko": "추석 전날",
+    "ja": "秋夕 前日 (추석 전날)"
   },
   {
     "date": "2023-09-29",
-    "ko": "Chuseok",
+    "ko": "추석",
     "ja": "秋夕 (추석)"
   },
   {
     "date": "2023-09-30",
-    "ko": "The second day of Chuseok",
-    "ja": "秋夕の二日目 (추석 이틀)"
+    "ko": "추석 다음날",
+    "ja": "秋夕 翌日 (추석 다음날)"
   },
   {
     "date": "2023-10-02",
-    "ko": "Temporary Public Holiday",
-    "ja": "臨時公休日 (임시공휴일)"
+    "ko": "임시공휴일",
+    "ja": "臨時休日 (임시공휴일)"
   },
   {
     "date": "2023-10-03",
-    "ko": "National Foundation Day",
-    "ja": "建国記念の日 (개천절)"
+    "ko": "개천절",
+    "ja": "開天節 (개천절)"
   },
   {
     "date": "2023-10-09",
-    "ko": "Hangul Day",
+    "ko": "한글날",
     "ja": "ハングルの日 (한글날)"
   },
   {
     "date": "2023-12-25",
-    "ko": "Christmas Day",
-    "ja": "クリスマス (크리스마스)"
+    "ko": "기독탄신일",
+    "ja": "キリスト降誕日 (기독탄신일)"
   },
   {
     "date": "2024-01-01",
-    "ko": "New Year's Day",
-    "ja": "元日 (신정)"
+    "ko": "신정",
+    "ja": "新年 (신정)"
   },
   {
     "date": "2024-02-09",
-    "ko": "The day preceding Korean New Year",
-    "ja": "旧正月の前日 (설날 전날)"
+    "ko": "설날 전날",
+    "ja": "旧正月 前日 (설날 전날)"
   },
   {
     "date": "2024-02-10",
-    "ko": "Korean New Year",
+    "ko": "설날",
     "ja": "旧正月 (설날)"
   },
   {
     "date": "2024-02-11",
-    "ko": "The second day of Korean New Year",
-    "ja": "韓国の旧正月の二日目 (설날 이틀)"
+    "ko": "설날 다음날",
+    "ja": "旧正月 翌日 (설날 다음날)"
   },
   {
     "date": "2024-02-12",
-    "ko": "Alternative holiday for Korean New Year",
-    "ja": "旧正月の代替休日 (설날 대체휴일)"
+    "ko": "설날 대체 휴일",
+    "ja": "旧正月 代替休日 (설날 대체 휴일)"
   },
   {
     "date": "2024-03-01",
-    "ko": "Independence Movement Day",
-    "ja": "独立運動記念日 (3.1절)"
+    "ko": "삼일절",
+    "ja": "三一節 (삼일절)"
   },
   {
     "date": "2024-04-10",
-    "ko": "National Assembly Election Day",
-    "ja": "国会議員選挙の日 (국회의원 선거일)"
+    "ko": "국회의원 선거일",
+    "ja": "国会議員選挙日 (국회의원 선거일)"
   },
   {
     "date": "2024-05-05",
-    "ko": "Children's Day",
-    "ja": "子供の日 (어린이날)"
+    "ko": "어린이날",
+    "ja": "こどもの日 (어린이날)"
   },
   {
     "date": "2024-05-06",
-    "ko": "Alternative holiday for Children's Day",
-    "ja": "子供の日の代替休日 (어린이날 대체휴일)"
+    "ko": "어린이날 대체 휴일",
+    "ja": "こどもの日 代替休日 (어린이날 대체 휴일)"
   },
   {
     "date": "2024-05-15",
-    "ko": "Buddha's Birthday",
-    "ja": "仏誕祭 (부처님 오신 날)"
+    "ko": "부처님오신날",
+    "ja": "仏陀降誕日 (부처님오신날)"
   },
   {
     "date": "2024-06-06",
-    "ko": "Memorial Day",
+    "ko": "현충일",
     "ja": "顕忠日 (현충일)"
   },
   {
     "date": "2024-08-15",
-    "ko": "Liberation Day",
+    "ko": "광복절",
     "ja": "光復節 (광복절)"
   },
   {
     "date": "2024-09-16",
-    "ko": "The day preceding Chuseok",
-    "ja": "秋夕の前日 (추석 전날)"
+    "ko": "추석 전날",
+    "ja": "秋夕 前日 (추석 전날)"
   },
   {
     "date": "2024-09-17",
-    "ko": "Chuseok",
+    "ko": "추석",
     "ja": "秋夕 (추석)"
   },
   {
     "date": "2024-09-18",
-    "ko": "The second day of Chuseok",
-    "ja": "秋夕の二日目 (추석 이틀)"
+    "ko": "추석 다음날",
+    "ja": "秋夕 翌日 (추석 다음날)"
   },
   {
     "date": "2024-10-01",
-    "ko": "Armed Forces Day",
-    "ja": "軍隊の日 (국군의 날)"
+    "ko": "국군의 날",
+    "ja": "国軍の日 (국군의 날)"
   },
   {
     "date": "2024-10-03",
-    "ko": "National Foundation Day",
-    "ja": "建国記念の日 (개천절)"
+    "ko": "개천절",
+    "ja": "開天節 (개천절)"
   },
   {
     "date": "2024-10-09",
-    "ko": "Hangul Day",
+    "ko": "한글날",
     "ja": "ハングルの日 (한글날)"
   },
   {
     "date": "2024-12-25",
-    "ko": "Christmas Day",
-    "ja": "クリスマス (크리스마스)"
+    "ko": "기독탄신일",
+    "ja": "キリスト降誕日 (기독탄신일)"
   },
   {
     "date": "2025-01-01",
-    "ko": "New Year's Day",
-    "ja": "元日 (신정)"
+    "ko": "신정",
+    "ja": "新年 (신정)"
   },
   {
     "date": "2025-01-27",
-    "ko": "Temporary Public Holiday",
-    "ja": "臨時公休日 (임시공휴일)"
+    "ko": "임시공휴일",
+    "ja": "臨時休日 (임시공휴일)"
   },
   {
     "date": "2025-01-28",
-    "ko": "The day preceding Korean New Year",
-    "ja": "旧正月の前日 (설날 전날)"
+    "ko": "설날 전날",
+    "ja": "旧正月 前日 (설날 전날)"
   },
   {
     "date": "2025-01-29",
-    "ko": "Korean New Year",
+    "ko": "설날",
     "ja": "旧正月 (설날)"
   },
   {
     "date": "2025-01-30",
-    "ko": "The second day of Korean New Year",
-    "ja": "韓国の旧正月の二日目 (설날 이틀)"
+    "ko": "설날 다음날",
+    "ja": "旧正月 翌日 (설날 다음날)"
   },
   {
     "date": "2025-03-01",
-    "ko": "Independence Movement Day",
-    "ja": "独立運動記念日 (3.1절)"
+    "ko": "삼일절",
+    "ja": "三一節 (삼일절)"
   },
   {
     "date": "2025-03-03",
-    "ko": "Alternative holiday for Independence Movement Day",
-    "ja": "独立運動記念日の代替休日 (3.1절 대체휴일)"
+    "ko": "삼일절 대체 휴일",
+    "ja": "三一節 代替休日 (삼일절 대체 휴일)"
   },
   {
     "date": "2025-05-05",
-    "ko": "Buddha's Birthday",
-    "ja": "仏誕祭 (부처님 오신 날)"
+    "ko": "부처님오신날",
+    "ja": "仏陀降誕日 (부처님오신날)"
   },
   {
     "date": "2025-05-05",
-    "ko": "Children's Day",
-    "ja": "子供の日 (어린이날)"
+    "ko": "어린이날",
+    "ja": "こどもの日 (어린이날)"
   },
   {
     "date": "2025-05-06",
-    "ko": "Alternative holiday for Buddha's Birthday",
-    "ja": "仏誕祭の代替休日 (부처님 오신 날 대체휴일)"
+    "ko": "부처님오신날 대체 휴일",
+    "ja": "仏陀降誕日 代替休日 (부처님오신날 대체 휴일)"
   },
   {
     "date": "2025-05-06",
-    "ko": "Alternative holiday for Children's Day",
-    "ja": "子供の日の代替休日 (어린이날 대체휴일)"
+    "ko": "어린이날 대체 휴일",
+    "ja": "こどもの日 代替休日 (어린이날 대체 휴일)"
   },
   {
     "date": "2025-06-03",
-    "ko": "Presidential Election Day",
-    "ja": "大統領選挙の日 (대통령 선거일)"
+    "ko": "대통령 선거일",
+    "ja": "大統領選挙日 (대통령 선거일)"
   },
   {
     "date": "2025-06-06",
-    "ko": "Memorial Day",
+    "ko": "현충일",
     "ja": "顕忠日 (현충일)"
   },
   {
     "date": "2025-08-15",
-    "ko": "Liberation Day",
+    "ko": "광복절",
     "ja": "光復節 (광복절)"
   },
   {
     "date": "2025-10-03",
-    "ko": "National Foundation Day",
-    "ja": "建国記念の日 (개천절)"
+    "ko": "개천절",
+    "ja": "開天節 (개천절)"
   },
   {
     "date": "2025-10-05",
-    "ko": "The day preceding Chuseok",
-    "ja": "秋夕の前日 (추석 전날)"
+    "ko": "추석 전날",
+    "ja": "秋夕 前日 (추석 전날)"
   },
   {
     "date": "2025-10-06",
-    "ko": "Chuseok",
+    "ko": "추석",
     "ja": "秋夕 (추석)"
   },
   {
     "date": "2025-10-07",
-    "ko": "The second day of Chuseok",
-    "ja": "秋夕の二日目 (추석 이틀)"
+    "ko": "추석 다음날",
+    "ja": "秋夕 翌日 (추석 다음날)"
   },
   {
     "date": "2025-10-08",
-    "ko": "Alternative holiday for Chuseok",
-    "ja": "秋夕の代替休日 (추석 대체휴일)"
+    "ko": "추석 대체 휴일",
+    "ja": "秋夕 代替休日 (추석 대체 휴일)"
   },
   {
     "date": "2025-10-09",
-    "ko": "Hangul Day",
+    "ko": "한글날",
     "ja": "ハングルの日 (한글날)"
   },
   {
     "date": "2025-12-25",
-    "ko": "Christmas Day",
-    "ja": "クリスマス (크리스마스)"
+    "ko": "기독탄신일",
+    "ja": "キリスト降誕日 (기독탄신일)"
   },
   {
     "date": "2026-01-01",
-    "ko": "New Year's Day",
-    "ja": "元日 (신정)"
+    "ko": "신정",
+    "ja": "新年 (신정)"
   },
   {
     "date": "2026-02-16",
-    "ko": "The day preceding Korean New Year",
-    "ja": "旧正月の前日 (설날 전날)"
+    "ko": "설날 전날",
+    "ja": "旧正月 前日 (설날 전날)"
   },
   {
     "date": "2026-02-17",
-    "ko": "Korean New Year",
+    "ko": "설날",
     "ja": "旧正月 (설날)"
   },
   {
     "date": "2026-02-18",
-    "ko": "The second day of Korean New Year",
-    "ja": "韓国の旧正月の二日目 (설날 이틀)"
+    "ko": "설날 다음날",
+    "ja": "旧正月 翌日 (설날 다음날)"
   },
   {
     "date": "2026-03-01",
-    "ko": "Independence Movement Day",
-    "ja": "独立運動記念日 (3.1절)"
+    "ko": "삼일절",
+    "ja": "三一節 (삼일절)"
   },
   {
     "date": "2026-03-02",
-    "ko": "Alternative holiday for Independence Movement Day",
-    "ja": "独立運動記念日の代替休日 (3.1절 대체휴일)"
+    "ko": "삼일절 대체 휴일",
+    "ja": "三一節 代替休日 (삼일절 대체 휴일)"
   },
   {
     "date": "2026-05-05",
-    "ko": "Children's Day",
-    "ja": "子供の日 (어린이날)"
+    "ko": "어린이날",
+    "ja": "こどもの日 (어린이날)"
   },
   {
     "date": "2026-05-24",
-    "ko": "Buddha's Birthday",
-    "ja": "仏誕祭 (부처님 오신 날)"
+    "ko": "부처님오신날",
+    "ja": "仏陀降誕日 (부처님오신날)"
   },
   {
     "date": "2026-05-25",
-    "ko": "Alternative holiday for Buddha's Birthday",
-    "ja": "仏誕祭の代替休日 (부처님 오신 날 대체휴일)"
+    "ko": "부처님오신날 대체 휴일",
+    "ja": "仏陀降誕日 代替休日 (부처님오신날 대체 휴일)"
   },
   {
     "date": "2026-06-03",
-    "ko": "Local Election Day",
-    "ja": "地方選挙の日 (지방 선거일)"
+    "ko": "지방선거일",
+    "ja": "地方選挙日 (지방선거일)"
   },
   {
     "date": "2026-06-06",
-    "ko": "Memorial Day",
+    "ko": "현충일",
     "ja": "顕忠日 (현충일)"
   },
   {
     "date": "2026-08-15",
-    "ko": "Liberation Day",
+    "ko": "광복절",
     "ja": "光復節 (광복절)"
   },
   {
     "date": "2026-08-17",
-    "ko": "Alternative holiday for Liberation Day",
-    "ja": "光復節の代替休日 (광복절 대체휴일)"
+    "ko": "광복절 대체 휴일",
+    "ja": "光復節 代替休日 (광복절 대체 휴일)"
   },
   {
     "date": "2026-09-24",
-    "ko": "The day preceding Chuseok",
-    "ja": "秋夕の前日 (추석 전날)"
+    "ko": "추석 전날",
+    "ja": "秋夕 前日 (추석 전날)"
   },
   {
     "date": "2026-09-25",
-    "ko": "Chuseok",
+    "ko": "추석",
     "ja": "秋夕 (추석)"
   },
   {
     "date": "2026-09-26",
-    "ko": "The second day of Chuseok",
-    "ja": "秋夕の二日目 (추석 이틀)"
+    "ko": "추석 다음날",
+    "ja": "秋夕 翌日 (추석 다음날)"
   },
   {
     "date": "2026-10-03",
-    "ko": "National Foundation Day",
-    "ja": "建国記念の日 (개천절)"
+    "ko": "개천절",
+    "ja": "開天節 (개천절)"
   },
   {
     "date": "2026-10-05",
-    "ko": "Alternative holiday for National Foundation Day",
-    "ja": "建国記念日の代替休日 (개천절 대체휴일)"
+    "ko": "개천절 대체 휴일",
+    "ja": "開天節 代替休日 (개천절 대체 휴일)"
   },
   {
     "date": "2026-10-09",
-    "ko": "Hangul Day",
+    "ko": "한글날",
     "ja": "ハングルの日 (한글날)"
   },
   {
     "date": "2026-12-25",
-    "ko": "Christmas Day",
-    "ja": "クリスマス (크리스마스)"
+    "ko": "기독탄신일",
+    "ja": "キリスト降誕日 (기독탄신일)"
   }
 ]
