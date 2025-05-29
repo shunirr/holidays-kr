@@ -119,7 +119,7 @@ def translate_to_japanese(data: list[str]) -> map:
 
 
 def main():
-    kr_holidays = holidays.country_holidays("KR")
+    kr_holidays = holidays.country_holidays("KR", language="ko")
     base_dir = "dist/"
 
     date_list = []
