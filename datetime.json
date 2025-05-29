@@ -2,391 +2,391 @@
   {
     "datetime": 1672531200,
     "ko": "New Year's Day",
-    "ja": "신정 (New Year's Day)"
+    "ja": "a"
   },
   {
     "datetime": 1674259200,
     "ko": "The day preceding Korean New Year",
-    "ja": "설날 전날 (The day preceding Korean New Year)"
+    "ja": "u"
   },
   {
     "datetime": 1674345600,
     "ko": "Korean New Year",
-    "ja": "설날 (Korean New Year)"
+    "ja": "N"
   },
   {
     "datetime": 1674432000,
     "ko": "The second day of Korean New Year",
-    "ja": "설날 이틀째 (The second day of Korean New Year)"
+    "ja": "念"
   },
   {
     "datetime": 1674518400,
     "ko": "Alternative holiday for Korean New Year",
-    "ja": "설날 대체휴일 (Alternative holiday for Korean New Year)"
+    "ja": ""
   },
   {
     "datetime": 1677628800,
     "ko": "Independence Movement Day",
-    "ja": "삼일절 (Independence Movement Day)"
+    "ja": "o"
   },
   {
     "datetime": 1683244800,
     "ko": "Children's Day",
-    "ja": "어린이날 (Children's Day)"
+    "ja": "記"
   },
   {
     "datetime": 1685145600,
     "ko": "Buddha's Birthday",
-    "ja": "부처님 오신 날 (Buddha's Birthday)"
+    "ja": "F"
   },
   {
     "datetime": 1685318400,
     "ko": "Alternative holiday for Buddha's Birthday",
-    "ja": "부처님 오신 날 대체휴일 (Alternative holiday for Buddha's Birthday)"
+    "ja": "n"
   },
   {
     "datetime": 1686009600,
     "ko": "Memorial Day",
-    "ja": "현충일 (Memorial Day)"
+    "ja": ""
   },
   {
     "datetime": 1692057600,
     "ko": "Liberation Day",
-    "ja": "광복절 (Liberation Day)"
+    "ja": "n"
   },
   {
     "datetime": 1695859200,
     "ko": "The day preceding Chuseok",
-    "ja": "추석 전날 (The day preceding Chuseok)"
+    "ja": "a"
   },
   {
     "datetime": 1695945600,
     "ko": "Chuseok",
-    "ja": "추석 (Chuseok)"
+    "ja": ""
   },
   {
     "datetime": 1696032000,
     "ko": "The second day of Chuseok",
-    "ja": "추석 이틀째 (The second day of Chuseok)"
+    "ja": "("
   },
   {
     "datetime": 1696204800,
     "ko": "Temporary Public Holiday",
-    "ja": "임시공휴일 (Temporary Public Holiday)"
+    "ja": "t"
   },
   {
     "datetime": 1696291200,
     "ko": "National Foundation Day",
-    "ja": "개천절 (National Foundation Day)"
+    "ja": "建"
   },
   {
     "datetime": 1696809600,
     "ko": "Hangul Day",
-    "ja": "한글날 (Hangul Day)"
+    "ja": "t"
   },
   {
     "datetime": 1703462400,
     "ko": "Christmas Day",
-    "ja": "크리스마스 (Christmas Day)"
+    "ja": "o"
   },
   {
     "datetime": 1704067200,
     "ko": "New Year's Day",
-    "ja": "신정 (New Year's Day)"
+    "ja": "a"
   },
   {
     "datetime": 1707436800,
     "ko": "The day preceding Korean New Year",
-    "ja": "설날 전날 (The day preceding Korean New Year)"
+    "ja": "u"
   },
   {
     "datetime": 1707523200,
     "ko": "Korean New Year",
-    "ja": "설날 (Korean New Year)"
+    "ja": "N"
   },
   {
     "datetime": 1707609600,
     "ko": "The second day of Korean New Year",
-    "ja": "설날 이틀째 (The second day of Korean New Year)"
+    "ja": "念"
   },
   {
     "datetime": 1707696000,
     "ko": "Alternative holiday for Korean New Year",
-    "ja": "설날 대체휴일 (Alternative holiday for Korean New Year)"
+    "ja": ""
   },
   {
     "datetime": 1709251200,
     "ko": "Independence Movement Day",
-    "ja": "삼일절 (Independence Movement Day)"
+    "ja": "o"
   },
   {
     "datetime": 1712707200,
     "ko": "National Assembly Election Day",
-    "ja": "국회의원 선거일 (National Assembly Election Day)"
+    "ja": "i"
   },
   {
     "datetime": 1714867200,
     "ko": "Children's Day",
-    "ja": "어린이날 (Children's Day)"
+    "ja": "記"
   },
   {
     "datetime": 1714953600,
     "ko": "Alternative holiday for Children's Day",
-    "ja": "어린이날 대체휴일 (Alternative holiday for Children's Day)"
+    "ja": "a"
   },
   {
     "datetime": 1715731200,
     "ko": "Buddha's Birthday",
-    "ja": "부처님 오신 날 (Buddha's Birthday)"
+    "ja": "F"
   },
   {
     "datetime": 1717632000,
     "ko": "Memorial Day",
-    "ja": "현충일 (Memorial Day)"
+    "ja": ""
   },
   {
     "datetime": 1723680000,
     "ko": "Liberation Day",
-    "ja": "광복절 (Liberation Day)"
+    "ja": "n"
   },
   {
     "datetime": 1726444800,
     "ko": "The day preceding Chuseok",
-    "ja": "추석 전날 (The day preceding Chuseok)"
+    "ja": "a"
   },
   {
     "datetime": 1726531200,
     "ko": "Chuseok",
-    "ja": "추석 (Chuseok)"
+    "ja": ""
   },
   {
     "datetime": 1726617600,
     "ko": "The second day of Chuseok",
-    "ja": "추석 이틀째 (The second day of Chuseok)"
+    "ja": "("
   },
   {
     "datetime": 1727740800,
     "ko": "Armed Forces Day",
-    "ja": "국군의 날 (Armed Forces Day)"
+    "ja": "l"
   },
   {
     "datetime": 1727913600,
     "ko": "National Foundation Day",
-    "ja": "개천절 (National Foundation Day)"
+    "ja": "建"
   },
   {
     "datetime": 1728432000,
     "ko": "Hangul Day",
-    "ja": "한글날 (Hangul Day)"
+    "ja": "t"
   },
   {
     "datetime": 1735084800,
     "ko": "Christmas Day",
-    "ja": "크리스마스 (Christmas Day)"
+    "ja": "o"
   },
   {
     "datetime": 1735689600,
     "ko": "New Year's Day",
-    "ja": "신정 (New Year's Day)"
+    "ja": "a"
   },
   {
     "datetime": 1737936000,
     "ko": "Temporary Public Holiday",
-    "ja": "임시공휴일 (Temporary Public Holiday)"
+    "ja": "t"
   },
   {
     "datetime": 1738022400,
     "ko": "The day preceding Korean New Year",
-    "ja": "설날 전날 (The day preceding Korean New Year)"
+    "ja": "u"
   },
   {
     "datetime": 1738108800,
     "ko": "Korean New Year",
-    "ja": "설날 (Korean New Year)"
+    "ja": "N"
   },
   {
     "datetime": 1738195200,
     "ko": "The second day of Korean New Year",
-    "ja": "설날 이틀째 (The second day of Korean New Year)"
+    "ja": "念"
   },
   {
     "datetime": 1740787200,
     "ko": "Independence Movement Day",
-    "ja": "삼일절 (Independence Movement Day)"
+    "ja": "o"
   },
   {
     "datetime": 1740960000,
     "ko": "Alternative holiday for Independence Movement Day",
-    "ja": "삼일절 대체휴일 (Alternative holiday for Independence Movement Day)"
+    "ja": "o"
   },
   {
     "datetime": 1746403200,
     "ko": "Buddha's Birthday",
-    "ja": "부처님 오신 날 (Buddha's Birthday)"
+    "ja": "F"
   },
   {
     "datetime": 1746403200,
     "ko": "Children's Day",
-    "ja": "어린이날 (Children's Day)"
+    "ja": "記"
   },
   {
     "datetime": 1746489600,
     "ko": "Alternative holiday for Buddha's Birthday",
-    "ja": "부처님 오신 날 대체휴일 (Alternative holiday for Buddha's Birthday)"
+    "ja": "n"
   },
   {
     "datetime": 1746489600,
     "ko": "Alternative holiday for Children's Day",
-    "ja": "어린이날 대체휴일 (Alternative holiday for Children's Day)"
+    "ja": "a"
   },
   {
     "datetime": 1748908800,
     "ko": "Presidential Election Day",
-    "ja": "대통령 선거일 (Presidential Election Day)"
+    "ja": "i"
   },
   {
     "datetime": 1749168000,
     "ko": "Memorial Day",
-    "ja": "현충일 (Memorial Day)"
+    "ja": ""
   },
   {
     "datetime": 1755216000,
     "ko": "Liberation Day",
-    "ja": "광복절 (Liberation Day)"
+    "ja": "n"
   },
   {
     "datetime": 1759449600,
     "ko": "National Foundation Day",
-    "ja": "개천절 (National Foundation Day)"
+    "ja": "建"
   },
   {
     "datetime": 1759622400,
     "ko": "The day preceding Chuseok",
-    "ja": "추석 전날 (The day preceding Chuseok)"
+    "ja": "a"
   },
   {
     "datetime": 1759708800,
     "ko": "Chuseok",
-    "ja": "추석 (Chuseok)"
+    "ja": ""
   },
   {
     "datetime": 1759795200,
     "ko": "The second day of Chuseok",
-    "ja": "추석 이틀째 (The second day of Chuseok)"
+    "ja": "("
   },
   {
     "datetime": 1759881600,
     "ko": "Alternative holiday for Chuseok",
-    "ja": "추석 대체휴일 (Alternative holiday for Chuseok)"
+    "ja": "国"
   },
   {
     "datetime": 1759968000,
     "ko": "Hangul Day",
-    "ja": "한글날 (Hangul Day)"
+    "ja": "t"
   },
   {
     "datetime": 1766620800,
     "ko": "Christmas Day",
-    "ja": "크리스마스 (Christmas Day)"
+    "ja": "o"
   },
   {
     "datetime": 1767225600,
     "ko": "New Year's Day",
-    "ja": "신정 (New Year's Day)"
+    "ja": "a"
   },
   {
     "datetime": 1771200000,
     "ko": "The day preceding Korean New Year",
-    "ja": "설날 전날 (The day preceding Korean New Year)"
+    "ja": "u"
   },
   {
     "datetime": 1771286400,
     "ko": "Korean New Year",
-    "ja": "설날 (Korean New Year)"
+    "ja": "N"
   },
   {
     "datetime": 1771372800,
     "ko": "The second day of Korean New Year",
-    "ja": "설날 이틀째 (The second day of Korean New Year)"
+    "ja": "念"
   },
   {
     "datetime": 1772323200,
     "ko": "Independence Movement Day",
-    "ja": "삼일절 (Independence Movement Day)"
+    "ja": "o"
   },
   {
     "datetime": 1772409600,
     "ko": "Alternative holiday for Independence Movement Day",
-    "ja": "삼일절 대체휴일 (Alternative holiday for Independence Movement Day)"
+    "ja": "o"
   },
   {
     "datetime": 1777939200,
     "ko": "Children's Day",
-    "ja": "어린이날 (Children's Day)"
+    "ja": "記"
   },
   {
     "datetime": 1779580800,
     "ko": "Buddha's Birthday",
-    "ja": "부처님 오신 날 (Buddha's Birthday)"
+    "ja": "F"
   },
   {
     "datetime": 1779667200,
     "ko": "Alternative holiday for Buddha's Birthday",
-    "ja": "부처님 오신 날 대체휴일 (Alternative holiday for Buddha's Birthday)"
+    "ja": "n"
   },
   {
     "datetime": 1780444800,
     "ko": "Local Election Day",
-    "ja": "지방 선거일 (Local Election Day)"
+    "ja": "日"
   },
   {
     "datetime": 1780704000,
     "ko": "Memorial Day",
-    "ja": "현충일 (Memorial Day)"
+    "ja": ""
   },
   {
     "datetime": 1786752000,
     "ko": "Liberation Day",
-    "ja": "광복절 (Liberation Day)"
+    "ja": "n"
   },
   {
     "datetime": 1786924800,
     "ko": "Alternative holiday for Liberation Day",
-    "ja": "광복절 대체휴일 (Alternative holiday for Liberation Day)"
+    "ja": "n"
   },
   {
     "datetime": 1790208000,
     "ko": "The day preceding Chuseok",
-    "ja": "추석 전날 (The day preceding Chuseok)"
+    "ja": "a"
   },
   {
     "datetime": 1790294400,
     "ko": "Chuseok",
-    "ja": "추석 (Chuseok)"
+    "ja": ""
   },
   {
     "datetime": 1790380800,
     "ko": "The second day of Chuseok",
-    "ja": "추석 이틀째 (The second day of Chuseok)"
+    "ja": "("
   },
   {
     "datetime": 1790985600,
     "ko": "National Foundation Day",
-    "ja": "개천절 (National Foundation Day)"
+    "ja": "建"
   },
   {
     "datetime": 1791158400,
     "ko": "Alternative holiday for National Foundation Day",
-    "ja": "개천절 대체휴일 (Alternative holiday for National Foundation Day)"
+    "ja": "d"
   },
   {
     "datetime": 1791504000,
     "ko": "Hangul Day",
-    "ja": "한글날 (Hangul Day)"
+    "ja": "t"
   },
   {
     "datetime": 1798156800,
     "ko": "Christmas Day",
-    "ja": "크리스마스 (Christmas Day)"
+    "ja": "o"
   }
 ]
