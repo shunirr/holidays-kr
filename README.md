@@ -14,6 +14,40 @@ We provide a translated iCalendar file. Normally, holidays are provided as local
 
 - https://holidays-kr.s5r.jp/ja.ics
 
+## Development
+
+### Prerequisites
+
+This project uses [uv](https://github.com/astral-sh/uv) for dependency management. Please install uv first:
+
+```bash
+# Install uv (if not already installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Setup
+
+1. Clone the repository
+2. Install dependencies using uv:
+
+```bash
+uv sync
+```
+
+### Running the application
+
+To run the application:
+
+```bash
+uv run python app.py
+```
+
+Or use the build script which also generates API documentation:
+
+```bash
+./build.sh
+```
+
 ## How to process
 
 We use the `https://github.com/vacanza/holidays` library that provides holidays for many countries.

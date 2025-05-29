@@ -49,11 +49,13 @@ def translate_to_japanese(data: list[str]) -> map:
                 "content": """\
 以下の韓国語を日本語に翻訳してください。翻訳の際には以下のフォーマットに従ってください。
 
-日本語での意味を表記 (韓国語の読みをカタカナで表記／元の韓国語を表記)
+{日本語での意味を表記} ({元の韓国語を表記})
 
 例えば、以下のようになります。
 
-旧正月 (ソルナル／설날)
+旧正月 (설날)
+仏誕祭 代替休日 (부처님 오신 날 대체휴일)
+秋夕 二日目 (추석 이틀)
 
 出力をそのまま利用したいので、改行区切りのテキストとして回答してください。データに適さない返答は不要です。
 ---
@@ -61,7 +63,7 @@ def translate_to_japanese(data: list[str]) -> map:
                 + "\n".join(data),
             }
         ],
-        model="gpt-4o-mini",
+        model="gpt-4.1-mini",
     )
     translated = chat_completion.choices[0].message.content.split("\n")
     result = {}
@@ -118,7 +120,9 @@ def main():
         outfile.write(ics_ko)
 
     if "ja" in date_list[0]:
-        ics_ja = generate_ics("韓国の祝日", "JA", [(x["date"], x["ja"]) for x in date_list])
+        ics_ja = generate_ics(
+            "韓国の祝日", "JA", [(x["date"], x["ja"]) for x in date_list]
+        )
         with open(base_dir + "ja.ics", "w") as outfile:
             outfile.write(ics_ja)
 
