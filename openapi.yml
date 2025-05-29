@@ -26,7 +26,7 @@ paths:
                       example: 신정
                     ja:
                       type: string
-                      example: 新正(シンジョン／신정)
+                      example: 新正(신정)
   /date.csv:
     get:
       summary: Date of the holidays in CSV
@@ -36,7 +36,7 @@ paths:
             text/csv:
               schema:
                 type: string
-                example: 2023-01-01,신정,新正(シンジョン／신정)
+                example: 2023-01-01,신정,新正(신정)
   /datetime.json:
     get:
       summary: Datetime of the holidays in JSON
@@ -57,7 +57,7 @@ paths:
                       example: 신정
                     ja:
                       type: string
-                      example: 新正(シンジョン／신정)
+                      example: 新正(신정)
   /datetime.csv:
     get:
       summary: Datetime of the holidays in CSV
@@ -67,7 +67,7 @@ paths:
             text/csv:
               schema:
                 type: string
-                example: 1672498800,신정,新正(シンジョン／신정)
+                example: 1672498800,신정,新正(신정)
   /ko.ics:
     get:
       summary: iCalendar of the holidays in Korean
