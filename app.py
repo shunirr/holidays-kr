@@ -7,6 +7,36 @@ import arrow
 import json
 import os
 
+translate_dict = {
+    "개천절": "開天節",
+    "광복절": "光復節",
+    "기독탄신일": "キリスト降誕日",
+    "부처님오신날": "仏陀降誕日",
+    "삼일절": "三一節",
+    "설날": "旧正月",
+    "신정": "新年",
+    "어린이날": "こどもの日",
+    "임시공휴일": "臨時休日",
+    "지방선거일": "地方選挙日",
+    "추석": "秋夕",
+    "한글날": "ハングルの日",
+    "현충일": "顕忠日",
+    "국군의 날": "国軍の日",
+    "국회의원 선거일": "国会議員選挙日",
+    "대통령 선거일": "大統領選挙日",
+    "설날 다음날": "旧正月 翌日",
+    "설날 전날": "旧正月 前日",
+    "추석 다음날": "秋夕 翌日",
+    "추석 전날": "秋夕 前日",
+    "개천절 대체 휴일": "開天節 代替休日",
+    "광복절 대체 휴일": "光復節 代替休日",
+    "부처님오신날 대체 휴일": "仏陀降誕日 代替休日",
+    "삼일절 대체 휴일": "三一節 代替休日",
+    "설날 대체 휴일": "旧正月 代替休日",
+    "어린이날 대체 휴일": "こどもの日 代替休日",
+    "추석 대체 휴일": "秋夕 代替休日",
+}
+
 
 def generate_ics(title: str, lang: str, date_list: list[tuple]) -> str:
     cal = [
@@ -38,15 +68,30 @@ def generate_ics(title: str, lang: str, date_list: list[tuple]) -> str:
 
 
 def translate_to_japanese(data: list[str]) -> map:
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        raise ValueError("API key is not set")
-    client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    chat_completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": """\
+    result = {}
+    untranslated = []
+
+    print("input:", data)
+
+    # First, use translate_dict for known translations
+    for item in data:
+        if item in translate_dict:
+            result[item] = f"{translate_dict[item]} ({item})"
+        else:
+            untranslated.append(item)
+
+    print("translated by known list:", result)
+
+    # If there are untranslated items, use OpenAI API
+    if untranslated:
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("API key is not set")
+        client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        response = client.responses.create(
+            model="gpt-4.1-mini",
+            instructions="You are a helpful assistant that translates Korean holidays to Japanese.",
+            input="""\
 以下の韓国語を日本語に翻訳してください。翻訳の際には以下のフォーマットに従ってください。
 
 {日本語での意味を表記} ({元の韓国語を表記})
@@ -60,15 +105,16 @@ def translate_to_japanese(data: list[str]) -> map:
 出力をそのまま利用したいので、改行区切りのテキストとして回答してください。データに適さない返答は不要です。
 ---
 """
-                + "\n".join(data),
-            }
-        ],
-        model="gpt-4.1-mini",
-    )
-    translated = chat_completion.choices[0].message.content.split("\n")
-    result = {}
-    for i in range(len(translated)):
-        result[data[i]] = translated[i].strip()
+            + "\n".join(untranslated),
+        )
+        translated = response.output_text.splitlines()
+
+        print("translated by OpenAI:", translated)
+
+        for i in range(len(untranslated)):
+            if i < len(translated):
+                result[untranslated[i]] = translated[i].strip()
+
     return result
 
 
