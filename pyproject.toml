@@ -17,7 +17,7 @@ dependencies = [
     "httpx==0.28.1",
     "idna==3.10",
     "jiter==0.10.0",
-    "openai==1.82.0",
+    "openai==1.93.0",
     "pydantic==2.11.4",
     "python-dateutil==2.9.0.post0",
     "six==1.17.0",
